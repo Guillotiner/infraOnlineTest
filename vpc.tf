@@ -22,7 +22,7 @@ variable "region" {
 variable "endpoint" {
   type        = string
   description = "自定义API endpoints"
-  default     = "`open.volcengineapi.com`"
+  default     = "open.volcengineapi.com"
 }
 
 variable "vpc_name" {
